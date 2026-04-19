@@ -1,0 +1,92 @@
+/**
+ * CSV Page Importer Admin Styles
+ * Version: 1.2.1
+ */
+
+.csv-import-form {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.form-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-field select {
+    min-width: 200px;
+}
+
+.form-submit {
+    margin-top: 20px;
+}
+
+.error-log {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.error-log h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    color: #23282d;
+}
+
+.error-messages {
+    margin-bottom: 20px;
+}
+
+.error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.debug-log {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.raw-data {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0;
+    font-family: monospace;
+    font-size: 13px;
+}
